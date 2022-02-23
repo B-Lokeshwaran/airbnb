@@ -1,0 +1,57 @@
+
+.headerfile{
+   
+    display:flex;
+    align-items:center;
+    height:80px;
+    
+   
+}
+.fileimage>img{
+    margin-top:20px;
+    height:100px;
+    width:100%;
+    flex:20%;
+}
+.searchbar{
+    flex:60%;
+}
+.searchbar>input{
+    margin-top: 1%;
+    border:1px solid grey;
+    padding:15px 15px;
+    border-radius: 25px;
+    width:33%;
+}
+.searchbar .icon{
+    position:absolute;
+    margin-top:25px;
+   margin-left:-45px;
+   font-size:23px;
+   font-weight:bold;
+}
+.account{
+    flex:20%;
+    margin-top:20px;
+   margin-left:40px;
+    font-size:15px;
+    display: flex;
+    align-items:center;
+    gap:2%;
+}
+
+.arrow,.globe{
+    font-weight: bolder;
+    font-size:25px;
+}
+.account1{
+    font-weight: bolder;
+    font-size:45px
+}
+.date{
+    color:red;
+    font-size:15px;
+    font-weight: bold;
+    padding:0;
+    margin-bottom:0px;
+}
